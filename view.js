@@ -36,7 +36,7 @@ class View {
 
     _renderPreview(memUrl) {
         if(memUrl) {
-            this.showMem.innerHTML = `<img src="${memUrl}" alt="Мем" id = "img" width = "450px" heigth = "400px">`;
+            this.showMem.innerHTML = `<img src="${memUrl}" alt="Мем" id = "img"  class = "img-mem">`;
         } else { 
             this.showMem.innerText = 'Мем не выбран.'
         }
