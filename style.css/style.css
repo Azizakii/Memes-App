@@ -1,0 +1,60 @@
+ 
+.section {
+    margin-top: 80px;
+    margin-left: 100px;
+    display: flex;
+    gap: 150px;
+}
+
+.settings-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.header {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    margin-bottom: 50px;
+}
+
+.mem-name {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43px;
+}
+
+.mem-url {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#mem-render {
+    position: relative;
+    text-align: center; 
+    display: inline-block;
+    width: 450px;
+    height: 500px;
+}
+
+.text-top {
+    position: absolute;
+    z-index: 100;
+    top: 10px; /* Расстояние от верхнего края */
+    left: 50%; /* Центрирование по горизонтали */
+    color: black; /* Белый текст */
+    font-size: 20px; /* Размер шрифта */
+    font-weight: bold; /* Увеличение жирности */
+}
+
+.text-bottom {
+    position: absolute;
+    z-index: 100;
+    bottom: 10px; /* Расстояние от нижнего края */
+    left: 50%; /* Центрирование по горизонтали */
+    color: black; /* Белый текст */
+    font-size: 20px; /* Размер шрифта */
+    font-weight: bold; /* Увеличение жирности */
+}

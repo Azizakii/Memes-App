@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css/reset.css">
+    <link rel="stylesheet" href="style.css/style.css">
+</head>
+<body>
+    
+
+    <section class="section">
+        <div class="settings-wrapper">
+            <h1 class="header">Настройки</h1>
+
+            <h5 class="mem-name">Meм</h5> 
+            <select id="form-select-mem"
+            class="mem-url">
+                <option >Выбери мем</option>
+            </select>
+
+
+            <h5 class="mem-name">Текст сверху</h5>
+            <input type="text" 
+            class="mem-url" 
+            id="text-top-input" 
+            placeholder="text..."> 
+
+            <h5 class="mem-name">Текст снизу</h5>
+            <input type="text" 
+            class="mem-url" 
+            id="text-bottom-input"
+            placeholder="text..."> 
+
+        </div>
+
+        <div class="preview-wrapper">
+            <h2 class="header">Превью:</h2>
+            <p id="mem-render">
+                <div class="textTop-on-img"></div>
+                <div class="textBottom-on-img"></div>
+
+            </p>
+        </div>
+    </section>
+
+
+
+    
+
+
+    <script src="models.js"></script>
+    <script src="view.js"></script>
+    <script src="api.js"></script>
+    <script src="controller.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
